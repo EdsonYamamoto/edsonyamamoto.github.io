@@ -1,23 +1,43 @@
 .center {
     background-color: white;
     border: 3px solid #999999;
-    margin: auto;
-    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) 		translateY(-50%);
+}
+.center-dir {
+    text-align: right;
+    width:47%;
+    float: left;
+}
+.center-center {
+    width: 1%;
+    float: center;
+	    border-left: thick solid#ff0000;
+
+}
+.center-esq {
+    text-align: left;
+    width:47%;
+	float: right;
 }
 
 html {
     position: relative;
     min-height: 100%;
     text-align: center;
-
+    float: center;
 }
-
+body {
+	background-color:#3F3E80
+}
 header{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    background-color: red;
+    background-color: #3D45AF;
     color: white;
     text-align: center;
 }
@@ -27,7 +47,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: #3D45AF;
     color: white;
     text-align: center;
 }
